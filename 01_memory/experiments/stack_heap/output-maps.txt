@@ -1,0 +1,24 @@
+$ cat /proc/68111/maps
+602f72365000-602f72366000 r--p 00000000 08:30 58896                      /home/yusuke/low-level-lab/01_memory/experiments/stack_vs_heap/stack_heap
+602f72366000-602f72367000 r-xp 00001000 08:30 58896                      /home/yusuke/low-level-lab/01_memory/experiments/stack_vs_heap/stack_heap
+602f72367000-602f72368000 r--p 00002000 08:30 58896                      /home/yusuke/low-level-lab/01_memory/experiments/stack_vs_heap/stack_heap
+602f72368000-602f72369000 r--p 00002000 08:30 58896                      /home/yusuke/low-level-lab/01_memory/experiments/stack_vs_heap/stack_heap
+602f72369000-602f7236a000 rw-p 00003000 08:30 58896                      /home/yusuke/low-level-lab/01_memory/experiments/stack_vs_heap/stack_heap
+602f8c01b000-602f8c03c000 rw-p 00000000 00:00 0                          [heap]
+7fa1e6000000-7fa1e6028000 r--p 00000000 08:30 5635                       /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1e6028000-7fa1e61bd000 r-xp 00028000 08:30 5635                       /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1e61bd000-7fa1e6215000 r--p 001bd000 08:30 5635                       /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1e6215000-7fa1e6216000 ---p 00215000 08:30 5635                       /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1e6216000-7fa1e621a000 r--p 00215000 08:30 5635                       /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1e621a000-7fa1e621c000 rw-p 00219000 08:30 5635                       /usr/lib/x86_64-linux-gnu/libc.so.6
+7fa1e621c000-7fa1e6229000 rw-p 00000000 00:00 0 
+7fa1e63bc000-7fa1e63bf000 rw-p 00000000 00:00 0 
+7fa1e63c5000-7fa1e63c7000 rw-p 00000000 00:00 0 
+7fa1e63c7000-7fa1e63c9000 r--p 00000000 08:30 5632                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1e63c9000-7fa1e63f3000 r-xp 00002000 08:30 5632                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1e63f3000-7fa1e63fe000 r--p 0002c000 08:30 5632                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1e63ff000-7fa1e6401000 r--p 00037000 08:30 5632                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fa1e6401000-7fa1e6403000 rw-p 00039000 08:30 5632                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fff06a91000-7fff06ab3000 rw-p 00000000 00:00 0                          [stack]
+7fff06b24000-7fff06b28000 r--p 00000000 00:00 0                          [vvar]
+7fff06b28000-7fff06b2a000 r-xp 00000000 00:00 0                          [vdso]
