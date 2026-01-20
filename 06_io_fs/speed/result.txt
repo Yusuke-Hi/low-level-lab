@@ -1,0 +1,18 @@
+$ ./read_1byte 
+read 10485760 bytes in 11.479023 sec
+
+$ ./read_4kbyte 
+read 10485760 bytes in 0.007894 sec
+
+$ ./read_64kbyte 
+read 10485760 bytes in 0.002306 sec
+
+
+$ ./write_1byte 
+write -1 bytes in 26.091393 sec
+
+$ ./write_4kbyte 
+write 0 bytes in 0.010402 sec
+
+d$ ./write_4kbyte_fsync 
+write with fsync 0 bytes in 7.784147 sec
