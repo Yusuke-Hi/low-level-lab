@@ -1,0 +1,13 @@
+$ time ./read_1byte 
+read 10485760 bytes in 12.921260 sec
+
+real    0m12.928s
+user    0m1.507s
+sys     0m11.354s
+
+$ time ./read_4kbyte 
+read 10485760 bytes in 0.008060 sec
+
+real    0m0.014s
+user    0m0.003s
+sys     0m0.007s
